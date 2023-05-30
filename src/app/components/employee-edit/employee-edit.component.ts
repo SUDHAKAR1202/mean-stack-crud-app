@@ -15,7 +15,7 @@ export class EmployeeEditComponent implements OnInit {
   submitted = false;
   editForm: FormGroup;
   employeeData: Employee[];
-  EmployeeProfile: any = ['Finance', 'BDM', 'HR', 'Sales', 'Admin']
+  EmployeeProfile: any = ['UI developer', 'Java developer', 'Data scientist', 'Flutter developer']
 
   constructor(
     public fb: FormBuilder,
